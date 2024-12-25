@@ -1,6 +1,5 @@
 import java.lang.String;
-import java.lang.StringBuilder;
-import javax.swing;
+
 class Stringfunc
 {
 public static void main(String []args)
@@ -15,7 +14,7 @@ System.out.println("finding_substring_at_initial_stage:"+combination.substring(3
 System.out.println("finding_substring_from_initial_to_final_stage:"+combination.substring(8,24));
 System.out.println("concatenation_operation:"+s.concat(success));
 System.out.println("index_operation_of_String:"+combination.indexOf("swEra_Shashwat"));
-System.out.println("index_of_string:"+combination.indexOf('s',8);
+System.out.println("index_of_string:"+combination.indexOf('s',8));
 int compare =s.compareTo(success);
 System.out.println("differene_between_string:"+compare);
 System.out.println(combination.toLowerCase());
