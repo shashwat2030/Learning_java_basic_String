@@ -19,9 +19,8 @@ System.out.println("Append_function_for_String_function:"+sb.append("is_an_ias_o
 System.out.println("Append_function_for_Integer_function:"+sb.append(786));
 // append integer at the end
 System.out.println("Insertion_at_the_End:"+sb.insert(15,"will_go_to_google"));
-// inserting text and integer at the end
-System.out.println("printing_last_index_from"
-+sb1.lastIndexOf("wanted",15));
+// inserting text at specific position
+System.out.println("printing_last_index_from:"+sb1.lastIndexOf("IAS",18));
 // printing the last index of the  sb1 string builder
 System.out.println(sb.delete(7,15));
 //just deleting the string of the format
